@@ -20,7 +20,7 @@ namespace final_draft
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/unnamemik");
+            System.Diagnostics.Process.Start("https://github.com/unnamemik/final_draft");
         }
 
         private void button1_Click(object sender, EventArgs e)
