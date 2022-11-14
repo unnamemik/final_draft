@@ -103,13 +103,16 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button1.ForeColor = System.Drawing.Color.Snow;
             this.button1.Location = new System.Drawing.Point(281, 223);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(234, 60);
             this.button1.TabIndex = 2;
             this.button1.Text = "Найти";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage2
@@ -165,13 +168,16 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.DarkSlateGray;
             this.button2.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(243, 153);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(316, 88);
             this.button2.TabIndex = 2;
             this.button2.Text = "Сгенерировать массив";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // tabPage3
@@ -197,12 +203,15 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(250, 140);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(268, 91);
             this.button3.TabIndex = 0;
             this.button3.Text = "Открыть";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage4
